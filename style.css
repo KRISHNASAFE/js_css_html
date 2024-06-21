@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h2{
+    text-align: center;
+}
+
+.cotainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-cotainer{
+    background-color:orange;
+    width: 300px;
+    height: 150px;
+    color: black;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border: solid 3px black;
+    border-radius: 10px;
+}
+
+
+
+
+
+
