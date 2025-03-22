@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: khaki;
+}
+
+img{
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    height: 30rem;
+}
+
+.image{
+    margin-left: 20px;
+}
+
+.section-center{
+    width: 300vh;
+    margin: 0 auto;
+    max-width: 2070px;
+    min-width: 340px;
+    padding: 5rem 0;
+
+}
+
+.tabs{
+    background:bisque;
+    border-radius: 0.5rem;
+    grid-template-rows: auto 1;
+    margin: 10px;
+
+}
+
+.button{
+    padding: 1rem 0;
+    border: none;
+    font-size: 1rem;
+    background-color:lightgreen;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    letter-spacing: 2px;
+}
+
+.btn-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button:nth-child(1){
+    border-top-left-radius: 0.5rem;
+}
+
+.button:nth-child(3){
+    border-top-right-radius: 0.5rem;
+}
+
+.button:hover:not(live){
+    background-color: brown;
+    color: white;
+}
+
+.tabs-content{
+    padding: 2rem 1.5rem;
+}
+
+@media (min-width:992px) {
+    .image{
+        margin-bottom: 0;
+    }
+    .section-center{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 2rem;
+    }
+}
+
+.content{
+    display: none;
+}
+
+.content.live{
+    display: block;
+}
+
+.button.live{
+    background-color: bisque;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
