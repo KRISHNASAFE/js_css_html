@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: palevioletred;
+
+}
+
+h2{
+    font-size: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 4px;
+    color: antiquewhite;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    white-space: nowrap;
+}
+
+.container{
+    text-align: center;
+}
+
+.btn{
+    padding: 30px 50px;
+    border: none;
+    margin: 10px;
+    font-size: 20px;
+    min-width: 200px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    background: url("/images/tom.png");
+    background-size: cover;
+    background-color: white;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    text-transform: capitalize;
+    
+}
+
+.btn:hover{
+    color: paleturquoise;
+}
+
+.btn:active{
+    background-size: 110%;
+}
