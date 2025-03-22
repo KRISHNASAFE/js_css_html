@@ -1,0 +1,20 @@
+/*<uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 400*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:sandybrown;
+    font-family: "Playwrite US Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
